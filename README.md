@@ -4,7 +4,7 @@ This is a Python tool that can be used to clear metadata from photos.
 
 ## Usage
 
-There is 1 arguments required by this script, and it is mandatory:
+There is 1 argument required by this script, and it is mandatory:
 
 - Type of input (path to file/path to directory)
 
@@ -67,7 +67,7 @@ optional arguments:
 
 * **FILE_PATH/DIRECTORY**
 
-The path you provide, file or directory, it must be valid. Otherwise, it will throw an error at validation step and a message will be shown in output. Also, if you pass a path for a file and it is not a photo, again, an error message will be displayed in the same section.
+The path you provide, file or directory, must be valid. Otherwise, it will throw an error at validation step and a message will be shown in the output. Also, if you pass a path for a file and it is not a photo, again, an error message will be displayed in the same section.
 
 In case you pass as argument a path which does not contain any photos, a message will pop up, saying there are not any files in that directory. If there are files, it will only perform cleanup on photos, it will not affect other type of files.
 
